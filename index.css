@@ -1,1 +1,49 @@
 /* Insert your homepage styling here! */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 20px;
+}
+
+.navbar {
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+}
+
+.header {
+  text-align: center;
+}
+
+.description {
+  margin: 20px 40px;
+}
+
+.profile-img {
+  width: 250px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.left-box {
+  width: 230px;
+  float: left;
+  padding-left: 20px;
+  border-style: dashed;
+}
+
+.right-box {
+  width: 230px;
+  float: right;
+  padding-left: 20px;
+  border-style: solid;
+}
